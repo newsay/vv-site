@@ -1,8 +1,6 @@
+import { url } from "inspector";
 import Navigation from "./components/navigation";
 import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -16,9 +14,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className="bg-gradient-to-b from-slate-950 from-60% to-indigo-950"
+        // style={{ 
+        //   backgroundImage: `url("images/bokeh.jpg")`
+        // }}
+      >
         <Navigation />
-        {children}
+        <div className="container mx-auto px-4">
+        <div className="w-full h-screen md:my-24 p-10	bg-white rounded-lg	shadow-2xl">
+            {children}
+            //</div></div>
       </body>
     </html>
   );

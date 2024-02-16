@@ -7,15 +7,14 @@ import Button from "./Button";
 const Logo = () => {
   return (
     <>
-      <Link href="/" >
-        <Image
-          src="/images/logo.png"
-          alt="Logo"
-          width="80"
-          height="80"
-          className="relative"
+      <a href="/" >
+        <img
+          src="/images/logo.svg"
+          width="50"
+          height="50"
+          className="relative hover:animate-spin"
         />
-      </Link>
+      </a>
     </>
   );
 };
