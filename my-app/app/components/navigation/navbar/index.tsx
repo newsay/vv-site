@@ -21,7 +21,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </div>
               </li>
               <li>
-                <h1 className="line-clamp-1 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-black to-rose-950 hover:text-white hover:scale-105 transition duration-700 ease-in-out">
+                <h1 className="line-clamp-1 text-black text-5xl drop-shadow-md hover:text-white hover:scale-105 hover:animate-pulse transition duration-700 ease-in-out">
                   <div className={yellowtail.className}>
                     <a href="/">
                       <p>Vicki Victoria</p>
