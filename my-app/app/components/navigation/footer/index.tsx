@@ -9,10 +9,10 @@ const yellowtail = Yellowtail({
 const Footer = () => {
   return (
     <>
-      <div className="w-full h-20 bg-transparent fixed bottom-0" data-te-sticky-position="bottom">
+      <div className="w-full h-20 bg-transparent fixed bottom-0">
         <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-end items-center h-full ">
-            <ul className="flex gap-x-4 lg:mr-4">
+          <div className="flex justify-end items-center h-full">
+            <ul className="flex gap-x-4 md:mr-1">
               <li>
                 <button
                   type="button"

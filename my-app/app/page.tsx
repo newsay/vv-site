@@ -1,6 +1,37 @@
+import "./globals.css";
+
+
 export default function Home() {
   return (
     <>
+      <div className="w-full h-64"
+        style={{
+          background: "linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url(images/stage.jpg) center/cover fixed"
+        }}>
+
+        <div className="flex justify-center items-center h-full">
+          <div className="block text-white italic text-right">
+            <h1 className="md:text-8xl">
+              "Lorem Ipsum!"
+            </h1>
+            <h2 className="md:text-xl">-Ipsum Lorem</h2>
+          </div>
+        </div>
+      </div>
+      <div className="w-full h-64"
+        style={{
+          background: "linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url(images/theatre.jpg) center/cover fixed"
+        }}>
+
+        <div className="flex justify-center items-center h-full">
+          <div className="block text-white italic text-right">
+            <h1 className="md:text-8xl">
+              "Lorem Ipsum!"
+            </h1>
+            <h2 className="md:text-xl">-Ipsum Lorem</h2>
+          </div>
+        </div>
+      </div>
 
       <p>
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing

@@ -11,17 +11,17 @@ const yellowtail = Yellowtail({
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-20 bg-gradient-to-r from-violet-500 to-fuchsia-500 sticky top-0 shadow-md">
+      <div className="w-full h-20 bg-gradient-to-r from-violet-500 to-fuchsia-500 sticky top-0 shadow-md z-50	">
         <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-between items-center h-full">
-            <ul className="flex gap-x-5">
+          <div className="flex justify-between items-center h-full ">
+            <ul className="flex gap-x-5 ">
               <li>
                 <div className="hover:scale-105 transition duration-700 ease-in-out hover:animate-pulse">
                 <Logo />
               </div>
               </li>
               <li>
-                <h1 className="line-clamp-1 text-black text-5xl drop-shadow-md hover:text-white hover:scale-105 hover:animate-pulse transition duration-700 ease-in-out">
+                <h1 className="line-clamp-1 sm:line-clamp-none text-black text-5xl drop-shadow-md hover:text-white hover:scale-105 hover:animate-pulse transition duration-700 ease-in-out">
                   <div className={yellowtail.className}>
                     <a href="/">
                       <p>Vicki Victoria</p>
@@ -49,7 +49,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
-            <ul className="hidden md:flex gap-x-10 text-white lg:mr-24 text-xl">
+            <ul className="hidden md:flex gap-x-10 text-white text-xl">
               <li>
                 <Link href="/" className="hover:text-black transition duration-700 ease-in-out ">
                   <p>Home</p>

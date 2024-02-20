@@ -15,14 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="bg-gradient-to-b from-slate-950 from-60% to-indigo-950"
-      // style={{ 
-      //   backgroundImage: `url("images/bokeh.jpg")`
-      // }}
+        className="bg-gradient-to-b from-slate-950 from-60% to-indigo-950 bg-fixed"
       >
         <Navigation />
         <div className="container mx-auto md:px-4">
-          <div className="w-full min-h-screen md:my-24 p-10	bg-white md:rounded-lg	shadow-2xl">
+          <div className="w-full min-h-screen md:my-8 p-10	bg-white md:rounded-lg shadow-2xl">
             {children}
           </div>
         </div>
