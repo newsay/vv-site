@@ -13,8 +13,8 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
     <>
       <div className="w-full h-20 bg-gradient-to-r from-violet-500 to-fuchsia-500 sticky top-0 shadow-md">
         <div className="container mx-auto px-4 h-full">
-          <div className="flex justify-between items-center h-full ">
-            <ul className="flex  gap-x-5">
+          <div className="flex justify-between items-center h-full">
+            <ul className="flex gap-x-5">
               <li>
                 <div className="hover:scale-105 transition duration-700 ease-in-out hover:animate-pulse">
                 <Logo />

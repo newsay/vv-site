@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
+import Footer from "./footer";
 
 const Navigation = () => {
   // toggle sidebar
@@ -13,6 +14,7 @@ const Navigation = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <Footer/>
     </>
   );
 };
